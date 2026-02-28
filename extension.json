@@ -1,22 +1,9 @@
 {
     "extensions": [
-    {
-        "id": "unique_id_1",
-        "name": "اسم الامتداد",
-        "desc": "وصف قصير للامتداد (سطر أو سطرين)",
-        "file": "اسم_الملف.sb3",
-        "img": "ROmessage.png",
-        "pos": "50% 50%",
-        "cat": "category_name"
-    },
-    {
-        "id": "unique_id_2",
-        "name": "امتداد آخر",
-        "desc": "وصف آخر",
-        "file": "another_file.sb3",
-        "img": "Load.png",
-        "pos": "center",
-        "cat": "media"
-    }
-    ]
+
+						                { "id": 'audio', "name": 'ROload', "desc": 'Show, and customize your own loading circle.', file: 'ROload.js', "img": 'ROload.jpeg', pos: '0% 0%', "cat": 'media' },
+                { "id": 'http', "name": 'HTTP Requester', "desc": 'Fetch APIs, send webhooks, connect to the real world.', file: 'http_requester.sb3', "img": 'picc', pos: '100% 0%', "cat": 'network' },
+                { "id": 'ctrl', "name": 'Controller Input', "desc": 'Xbox, PlayStation, USB controllers with vibration.', file: 'controller_input.sb3', "img": 'picc', pos: '0% 100%', "cat": 'input' },
+                { "id": 'viz', "name": 'Data Viz', "desc": 'Draw charts, graphs, and plots using list data.', file: 'data_viz.sb3', "img": 'picc', pos: '100% 100%', "cat": 'visualization' },
+        ]
 }
