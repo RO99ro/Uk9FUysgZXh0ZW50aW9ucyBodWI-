@@ -1,0 +1,22 @@
+{
+    "extensions": [
+    {
+        "id": "unique_id_1",
+        "name": "اسم الامتداد",
+        "desc": "وصف قصير للامتداد (سطر أو سطرين)",
+        "file": "اسم_الملف.sb3",
+        "img": "ROmessage.png",
+        "pos": "50% 50%",
+        "cat": "category_name"
+    },
+    {
+        "id": "unique_id_2",
+        "name": "امتداد آخر",
+        "desc": "وصف آخر",
+        "file": "another_file.sb3",
+        "img": "Load.png",
+        "pos": "center",
+        "cat": "media"
+    }
+    ]
+}
